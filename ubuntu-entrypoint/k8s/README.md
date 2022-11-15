@@ -1,0 +1,1 @@
+The docker hub image uses `sleep` command as entrypoint. If you want to overwrite the default entrypoint, in the pod-definition.yaml file, above the `args` key, insert a key called `command` with the command you want to replace, like `grep` for example.
